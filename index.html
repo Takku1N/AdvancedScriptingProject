@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="flex items-center justify-between px-8 py-4 bg-black">
+
+    <!-- Logo -->
+    <a class="px-3 py-1 font-bold text-white text-2xl" href="">
+        Indie Games Promote
+    </a>
+
+    <a href="" class="text-white">About Us</a>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="relative h-[650px] flex items-center">
+
+        <!-- Background -->
+        <img class="absolute w-full h-full object-cover opacity-70" id="gameImage" >
+
+        <!-- Overlay -->
+        <div class="absolute w-full h-full bg-gradient-to-l from-black via-black/70 to-transparent"></div>
+
+
+        <!-- Content -->
+        <div class="relative z-10 max-w-2xl ml-auto mr-24">
+
+            <h1 class="text-6xl font-bold tracking-wide text-white" id="gameTitle"></h1>
+
+            <div class="flex gap-4 mt-8 justify-end">
+                <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200" onclick="goToDetail()">
+                    Details
+                </button>
+            </div>
+
+        </div>
+
+        <button class="absolute text-white left-6 bg-black/50 p-3 rounded hover:bg-black" onclick="prevGame()">
+            ❮
+        </button>
+
+        <button class="absolute text-white right-6 bg-black/50 p-3 rounded hover:bg-black" onclick="nextGame()">
+            ❯
+        </button>
+
+        <div id="dots" class="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3"></div>
+    </section>
+
+    <section class="bg-gray-100 py-16 px-20">
+
+        <h2 class="text-5xl font-bold mb-10">
+            Featured Games
+        </h2>
+
+        <div id="featuredGames" class="grid grid-cols-2 gap-8"></div>
+
+    </section>
+
+    <script src="js/home.js"></script>
+</body>
+</html>

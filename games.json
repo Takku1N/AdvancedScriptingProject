@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Terraria",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+        "platform": ["Steam", "Android", "iOS"],
+        "system_requirements": {
+            "minimum": {
+                "os": "Windows XP, Vista, 7, 8/8.1, 10",
+                "processor": "2.0 GHz",
+                "memory": "2.5 GB RAM",
+                "storage": "200 MB available space",
+                "graphics": "128 MB VRAM (Shader Model 2.0+)"
+            },
+            "recommended": {
+            "os": "Windows 10",
+            "processor": "Dual Core 3.0 GHz",
+            "memory": "4 GB RAM",
+            "graphics": "256 MB VRAM",
+            "storage": "200 MB available space"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "title": "Stardew Valley",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+        "platform": ["Steam", "Android", "iOS"],
+        "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-2300 / AMD FX-4350",
+          "memory": "8 GB RAM",
+          "graphics": "GeForce GTX 460 / Radeon HD 5850",
+          "storage": "1 GB available space"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "memory": "16 GB RAM",
+          "graphics": "GeForce GTX 970 / Radeon RX 570",
+          "storage": "1 GB available space"
+        }
+      }
+    },
+    {
+        "id": 3,
+        "title": "Core Keeper",
+        "image": "https://cdn1.epicgames.com/spt-assets/087cc93d0ada4e88ad6fefc57cfd07fa/core-keeper-y54r8.jpg",
+        "platform": ["Steam"],
+        "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-2300 / AMD FX-4350",
+          "memory": "8 GB RAM",
+          "graphics": "GeForce GTX 460 / Radeon HD 5850",
+          "storage": "1 GB available space"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "memory": "16 GB RAM",
+          "graphics": "GeForce GTX 970 / Radeon RX 570",
+          "storage": "1 GB available space"
+        }
+      }
+    }
+]
