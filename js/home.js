@@ -41,7 +41,7 @@ async function loadFeaturedGames(){
 
             <div class="absolute bottom-6 right-6 flex gap-3">
 
-                <button class="bg-white text-black px-4 py-2 rounded-full text-sm" onclick='window.location.href="game-detail.html?id=${game.id}"'>
+                <button class="bg-white text-black px-4 py-2 rounded-full scale-loop text-sm" onclick='window.location.href="game-detail.html?id=${game.id}"'>
                     Details
                 </button>
 

@@ -1,68 +1,83 @@
 [
-    {
-        "id": 1,
-        "title": "Terraria",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
-        "platform": ["Steam", "Android", "iOS"],
-        "system_requirements": {
-            "minimum": {
-                "os": "Windows XP, Vista, 7, 8/8.1, 10",
-                "processor": "2.0 GHz",
-                "memory": "2.5 GB RAM",
-                "storage": "200 MB available space",
-                "graphics": "128 MB VRAM (Shader Model 2.0+)"
-            },
-            "recommended": {
-            "os": "Windows 10",
-            "processor": "Dual Core 3.0 GHz",
-            "memory": "4 GB RAM",
-            "graphics": "256 MB VRAM",
-            "storage": "200 MB available space"
-            }
-        }
-    },
-    {
-        "id": 2,
-        "title": "Stardew Valley",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-        "platform": ["Steam", "Android", "iOS"],
-        "system_requirements": {
-        "minimum": {
-          "os": "Windows 10",
-          "processor": "Intel Core i5-2300 / AMD FX-4350",
-          "memory": "8 GB RAM",
-          "graphics": "GeForce GTX 460 / Radeon HD 5850",
-          "storage": "1 GB available space"
-        },
-        "recommended": {
-          "os": "Windows 10",
-          "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
-          "memory": "16 GB RAM",
-          "graphics": "GeForce GTX 970 / Radeon RX 570",
-          "storage": "1 GB available space"
-        }
-      }
-    },
-    {
-        "id": 3,
-        "title": "Core Keeper",
-        "image": "https://cdn1.epicgames.com/spt-assets/087cc93d0ada4e88ad6fefc57cfd07fa/core-keeper-y54r8.jpg",
-        "platform": ["Steam"],
-        "system_requirements": {
-        "minimum": {
-          "os": "Windows 10",
-          "processor": "Intel Core i5-2300 / AMD FX-4350",
-          "memory": "8 GB RAM",
-          "graphics": "GeForce GTX 460 / Radeon HD 5850",
-          "storage": "1 GB available space"
-        },
-        "recommended": {
-          "os": "Windows 10",
-          "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
-          "memory": "16 GB RAM",
-          "graphics": "GeForce GTX 970 / Radeon RX 570",
-          "storage": "1 GB available space"
-        }
+  {
+    "id": 1,
+    "title": "Terraria",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+    "genre": ["Action", "Adventure", "Sandbox"],
+    "overview": "Dig, fight, explore, and build in a vast sandbox world.",
+    "description": "Terraria is a 2D sandbox adventure game where players explore procedurally generated worlds, gather resources, craft items, and battle a wide variety of enemies and bosses. The game focuses on exploration, building structures, upgrading gear, and uncovering hidden secrets underground and across different biomes.",
+    "developer": "Re-Logic",
+    "publisher": "Re-Logic",
+    "platform": ["Steam", "Android", "iOS"],
+    "system_requirements": {
+      "minimum": {
+        "os": "Windows XP, Vista, 7, 8/8.1, 10",
+        "processor": "2.0 GHz",
+        "memory": "2.5 GB RAM",
+        "storage": "200 MB available space",
+        "graphics": "128 MB VRAM (Shader Model 2.0+)"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "processor": "Dual Core 3.0 GHz",
+        "memory": "4 GB RAM",
+        "graphics": "256 MB VRAM",
+        "storage": "200 MB available space"
       }
     }
+  },
+  {
+    "id": 2,
+    "title": "Stardew Valley",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+    "genre": ["Simulation", "RPG", "Farming"],
+    "overview": "Build your dream farm and become part of a lively rural community.",
+    "description": "Stardew Valley is a farming simulation RPG where players inherit an old farm and transform it into a thriving homestead. You can grow crops, raise animals, mine for resources, fish, craft items, and build relationships with the villagers. The game offers a relaxing open-ended experience with seasonal events, exploration, and cooperative multiplayer.",
+    "developer": "ConcernedApe",
+    "publisher": "ConcernedApe",
+    "platform": ["Steam", "Android", "iOS"],
+    "system_requirements": {
+      "minimum": {
+        "os": "Windows 10",
+        "processor": "Intel Core i5-2300 / AMD FX-4350",
+        "memory": "8 GB RAM",
+        "graphics": "GeForce GTX 460 / Radeon HD 5850",
+        "storage": "1 GB available space"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+        "memory": "16 GB RAM",
+        "graphics": "GeForce GTX 970 / Radeon RX 570",
+        "storage": "1 GB available space"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Core Keeper",
+    "image": "https://cdn1.epicgames.com/spt-assets/087cc93d0ada4e88ad6fefc57cfd07fa/core-keeper-y54r8.jpg",
+    "genre": ["Sandbox", "Adventure", "Survival"],
+    "overview": "Explore an underground world filled with secrets, resources, and ancient creatures.",
+    "description": "Core Keeper is a sandbox survival adventure game where players explore a mysterious underground world. Gather resources, craft equipment, build bases, farm crops, and defeat powerful bosses. The game focuses on cooperative exploration and base building, allowing players to uncover ancient technology and expand their underground civilization.",
+    "developer": "Pugstorm",
+    "publisher": "Fireshine Games",
+    "platform": ["Steam"],
+    "system_requirements": {
+      "minimum": {
+        "os": "Windows 10",
+        "processor": "Intel Core i5-2300 / AMD FX-4350",
+        "memory": "8 GB RAM",
+        "graphics": "GeForce GTX 460 / Radeon HD 5850",
+        "storage": "1 GB available space"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+        "memory": "16 GB RAM",
+        "graphics": "GeForce GTX 970 / Radeon RX 570",
+        "storage": "1 GB available space"
+      }
+    }
+  }
 ]
